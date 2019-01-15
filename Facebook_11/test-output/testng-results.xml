@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134656" started-at="2019-01-15T16:17:27Z" finished-at="2019-01-15T16:19:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="134656" started-at="2019-01-15T16:17:27Z" finished-at="2019-01-15T16:19:42Z">
+      <class name="com.fb.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="init" is-config="true" duration-ms="21664" started-at="2019-01-15T16:17:54Z" finished-at="2019-01-15T16:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="postFeed()[pri:3, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="postFeed" duration-ms="5847" started-at="2019-01-15T16:18:16Z" finished-at="2019-01-15T16:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postFeed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="3467" started-at="2019-01-15T16:18:22Z" finished-at="2019-01-15T16:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postFeed status=SUCCESS method=HomePageTest.postFeed()[pri:3, instance:com.fb.qa.testcases.HomePageTest@2f943d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="init" is-config="true" duration-ms="20563" started-at="2019-01-15T16:18:25Z" finished-at="2019-01-15T16:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkPost()[pri:4, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="checkPost" duration-ms="3012" started-at="2019-01-15T16:18:46Z" finished-at="2019-01-15T16:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPost -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="3751" started-at="2019-01-15T16:18:49Z" finished-at="2019-01-15T16:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPost status=SUCCESS method=HomePageTest.checkPost()[pri:4, instance:com.fb.qa.testcases.HomePageTest@2f943d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="init" is-config="true" duration-ms="17424" started-at="2019-01-15T16:18:53Z" finished-at="2019-01-15T16:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="searchbar()[pri:5, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="searchbar" duration-ms="550" started-at="2019-01-15T16:19:10Z" finished-at="2019-01-15T16:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbar -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.HomePageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="3644" started-at="2019-01-15T16:19:11Z" finished-at="2019-01-15T16:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchbar status=SUCCESS method=HomePageTest.searchbar()[pri:5, instance:com.fb.qa.testcases.HomePageTest@2f943d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.HomePageTest -->
+      <class name="com.fb.qa.testcases.FriendRequestTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.FriendRequestTest@80503]" name="init" is-config="true" duration-ms="20159" started-at="2019-01-15T16:19:14Z" finished-at="2019-01-15T16:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendRequest()[pri:6, instance:com.fb.qa.testcases.FriendRequestTest@80503]" name="sendRequest" duration-ms="476" started-at="2019-01-15T16:19:34Z" finished-at="2019-01-15T16:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.FriendRequestTest@80503]" name="tearDown" is-config="true" duration-ms="6973" started-at="2019-01-15T16:19:35Z" finished-at="2019-01-15T16:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendRequest status=SUCCESS method=FriendRequestTest.sendRequest()[pri:6, instance:com.fb.qa.testcases.FriendRequestTest@80503] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.FriendRequestTest -->
+      <class name="com.fb.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="init" is-config="true" duration-ms="8034" started-at="2019-01-15T16:17:27Z" finished-at="2019-01-15T16:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginPageUrlValidation()[pri:1, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="loginPageUrlValidation" duration-ms="21" started-at="2019-01-15T16:17:35Z" finished-at="2019-01-15T16:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlValidation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="1266" started-at="2019-01-15T16:17:35Z" finished-at="2019-01-15T16:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageUrlValidation status=SUCCESS method=LoginPageTest.loginPageUrlValidation()[pri:1, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="init" is-config="true" duration-ms="6401" started-at="2019-01-15T16:17:36Z" finished-at="2019-01-15T16:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="login" duration-ms="9258" started-at="2019-01-15T16:17:43Z" finished-at="2019-01-15T16:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="2101" started-at="2019-01-15T16:17:52Z" finished-at="2019-01-15T16:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:2, instance:com.fb.qa.testcases.LoginPageTest@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fb.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.fb.qa.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.fb.qa.testcases.HomePageTest">
+        <methods>
+          <include name="init"/>
+          <include name="searchbar"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fb.qa.testcases.HomePageTest -->
+      <class name="com.fb.qa.testcases.FriendRequestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sendRequest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.fb.qa.testcases.FriendRequestTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
