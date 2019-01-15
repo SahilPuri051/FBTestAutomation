@@ -42,6 +42,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//input[@name='q']")
 	WebElement searchbar;
 	
+	@FindBy(xpath="//button[@data-testid='facebar_search_button']")
+	WebElement searchbutton;
+	
 	public HomePage()
 	{
 		PageFactory.initElements(driver,this);
@@ -74,7 +77,7 @@ public class HomePage extends TestBase {
 	public FriendRequestPage searchfriend(String friendname)
 	{
 		Actions act=new Actions(driver);
-		act.moveToElement(searchbar).sendKeys(friendname).sendKeys(Keys.ENTER).build().perform();
+		act.sendKeys(searchbar,friendname).click(searchbutton).build().perform();
 		return new FriendRequestPage();
 	}
 }

@@ -6,11 +6,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.apache.*;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 public class TestBase {
 	public static WebDriver driver;
@@ -33,7 +35,8 @@ public class TestBase {
 		public void initialize()
 		{
 			String browser=prop.getProperty("browser");
-			
+			Logger logger = Logger.getLogger("TestBase");
+			PropertyConfigurator.configure("C:\\Users\\SAHIL\\git\\FBTestAutomation\\Facebook_11\\com.fb.qa.resources\\log4j.properties");
 			if(browser.contains("chrome"))
 			{
 				Map<String,Object> prefs=new HashMap<String,Object>();
@@ -53,6 +56,8 @@ public class TestBase {
 			driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 	
+	
+			
 		}
 		
 	}

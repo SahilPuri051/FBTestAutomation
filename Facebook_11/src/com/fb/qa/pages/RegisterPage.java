@@ -41,6 +41,7 @@ public class RegisterPage extends TestBase {
 		
 		@FindBy(name="reg_email_confirmation__")
 		WebElement email2;
+		
 		public RegisterPage()
 		{
 			PageFactory.initElements(driver, this);

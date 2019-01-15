@@ -2,6 +2,8 @@ package com.fb.qa.testcases;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -17,6 +19,14 @@ public class RegisterPageTest extends TestBase{
 	
 	LoginPage loginpage;
 	RegisterPage registerpage;
+	Logger logger;
+	
+	public RegisterPageTest()
+	{
+		super();
+		logger= Logger.getLogger("RegisterPageTest");
+		PropertyConfigurator.configure("C:\\Users\\SAHIL\\git\\FBTestAutomation\\Facebook_11\\com.fb.qa.resources\\log4j.properties");
+	}
 	
 	@BeforeMethod
 	public void init()
@@ -24,8 +34,6 @@ public class RegisterPageTest extends TestBase{
 		initialize();
 		registerpage=new RegisterPage();
 	}
-	
-	
 	
 
 	@Test(priority=1)
@@ -46,6 +54,7 @@ public class RegisterPageTest extends TestBase{
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException
 	{
+		logger.info(result.getMethod().getMethodName()+" "+"Over"+result.getEndMillis());
 		getscreenshot.shot1(result);
 		//driver.quit();
 

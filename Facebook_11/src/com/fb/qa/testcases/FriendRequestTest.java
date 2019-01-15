@@ -2,6 +2,8 @@ package com.fb.qa.testcases;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,11 +20,13 @@ public class FriendRequestTest extends TestBase {
 	LoginPage loginpage;
 	HomePage homepage;
 	FriendRequestPage friendrequestpage;
-
+	Logger logger;
 	
 	public FriendRequestTest()
 	{
 		super();
+		logger= Logger.getLogger("FriendRequestTest");
+		PropertyConfigurator.configure("C:\\Users\\SAHIL\\git\\FBTestAutomation\\Facebook_11\\com.fb.qa.resources\\log4j.properties");
 	}
 	
 	@BeforeMethod
@@ -44,6 +48,7 @@ public class FriendRequestTest extends TestBase {
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException, InterruptedException
 	{
+		logger.info(result.getMethod().getMethodName()+" "+"Over"+result.getEndMillis());
 		getscreenshot.shot1(result);
 		Thread.sleep(5000);
 		driver.quit();

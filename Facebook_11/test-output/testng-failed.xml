@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.fb.qa.testcases.HomePageTest">
-        <methods>
-          <include name="init"/>
-          <include name="searchbar"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.fb.qa.testcases.HomePageTest -->
       <class name="com.fb.qa.testcases.FriendRequestTest">
         <methods>
           <include name="tearDown"/>

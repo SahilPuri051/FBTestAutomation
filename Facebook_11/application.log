@@ -1,0 +1,8 @@
+2019-01-15 23:14:33,812  INFO [main] TestBase:57 - loginPageUrlValidation1
+2019-01-15 23:15:13,868  INFO [main] TestBase:57 - login1
+2019-01-15 23:19:54,902  INFO [main] LoginPageTest:57 - loginPageUrlValidation Over1547574594885
+2019-01-15 23:20:19,293  INFO [main] LoginPageTest:57 - login Over1547574619291
+2019-01-15 23:20:48,950  INFO [main] HomePageTest:63 - postFeed Over1547574648948
+2019-01-15 23:21:19,492  INFO [main] HomePageTest:63 - checkPost Over1547574679491
+2019-01-15 23:21:47,121  INFO [main] HomePageTest:63 - searchbar Over1547574707120
+2019-01-15 23:22:15,710  INFO [main] FriendRequestTest:51 - sendRequest Over1547574735656
